@@ -51,7 +51,7 @@ curl -X POST -F "file=@images/test/001.jpeg" https://flask-furniture-classifier-
 ```
 **Result**
 ```bash
-{"predicted_class": "chair", "confidence": "100.00%"}
+{"predicted_class": "bed", "confidence": "89.41%"}
 ```
 
 ## Technologies Involved
