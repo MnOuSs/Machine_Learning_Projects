@@ -35,7 +35,7 @@ python app.py
 Then send a test request:
 
 ```bash
-curl -X POST -F "file=@sample_images/chair.jpg" http://127.0.0.1:5000/predict
+curl -X POST -F "file=@images/val/chair/00000011.jpg" http://127.0.0.1:5000/predict
 ```
 
 ---
@@ -47,11 +47,11 @@ https://flask-furniture-classifier-api.onrender.com
 
 **Example**
 ```bash
-curl -X POST -F "file=@sample_images/chair.jpg" https://flask-furniture-classifier-api.onrender.com/predict
+curl -X POST -F "file=@images/val/chair/00000011.jpg" https://flask-furniture-classifier-api.onrender.com/predict
 ```
 **Result**
 ```bash
-{"predicted_class": "chair", "confidence": "98.7%"}
+{"predicted_class": "chair", "confidence": "100.00%"}
 ```
 
 ## Technologies Involved
